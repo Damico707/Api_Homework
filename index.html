@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <div class="container">
         <h1>Buscador de personajes Rick & Morty</h1>
-        <input class="find"> 
-        <button class="boton-find" type="button">
+    <div class="search">
+        <input class="find" placeholder="Escriba un nombre..."> 
+        <button id="boton-find" type="button">Buscar</button>
     </div>
-<script src="./index.js"></script>
+    <div class="results">
+        <div class="card">
+            <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="">
+            <h3>Rick Sanchez</h3>
+            <p>Status: alive</p>
+        </div>
+    </div>
 </body>
+<script src="./main.js"></script>
 </html>
